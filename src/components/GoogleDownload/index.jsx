@@ -20,8 +20,8 @@ export function GoogleDownload(data) {
 
       function initClient() {
         gapi.client.init({
-          apiKey: 'AIzaSyDT7tboB6TsbFzN9WRDrZ223yNlj__DrGc',
-          clientId: '459822625837-fdbtu872stqltes7otv0koebrihb1r8b.apps.googleusercontent.com',
+          apiKey: 'apikey',
+          clientId: 'clientId.apps.googleusercontent.com',
           discoveryDocs: ["https://sheets.googleapis.com/$discovery/rest?version=v4"],
           scope: "https://www.googleapis.com/auth/spreadsheets",
         }).then(function () {
